@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rinxan's world!</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="portfolio">
+
+    <header class="header">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contacts">Contacts</a>
+        <a href="index.html">Home</a>
+      </nav>
+
+      <h1 class="header__title">Rinxan, <br> Front-end developer</h1>
+    </header>
+
+    <section id="about" class="about">
+      <div class="about__photo">
+        <img src="images/image.jpg" alt="keyboard">
+        <img src="images/person.jpeg" alt="person">
+      </div>
+      <div class="about__info">
+        <h2>About me</h2>
+        <p>
+          My name is Rinxan, I'm a front end dev for almost 2 years, here you can see my works.
+          I'm last year CS student, my stack is next: C++, Vanilla JavaScript, Python, Mysql, Git, Gulp, Html, Css.
+          Now I'm learning React, Node, Express to become Full-stack developer.
+        </p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio__work">
+      <h2>Portfolio</h2>
+      <figure>
+        <img src="images/project1.png" alt="1">
+        <img src="images/project2.png" alt="2">
+      </figure>
+      <div class="btns">
+        <button id="flashcard" type="button" class="open-window">flashcards</button>
+        <button id="piano" type="button" class="open-window">piano</button>
+      </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+      <h1>Contacts</h1>
+      <a href="tel:+79093084242">Our phone number: <span>+79093084242</span></a>
+      <a href="mailto:sefan.wen9.net@mail.ru">Our mail adress: <span>sefan.wen9.net@mail.ru</span></a>
+      <div class="social">
+        <a href="https://instagram.com" target="_blank"><img src="images/instagram%201.svg" alt="insta"></a>
+        <a href="https://twitter.com" target="_blank"><img src="images/twitter.svg" alt="twit"></a>
+        <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="face"></a>
+        <a href="https://github.com" target="_blank"><img src="images/github.svg" alt="git"></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contacts">Contacts</a>
+        <a href="index.html">Home</a>
+      </nav>
+    </footer>
+
+  </div>
+
+
+<!-- Pop up windows -->
+
+  <div class="wrap">
+    <div class="window">
+      <h1 class="window__title"></h1>
+      <p class="window__git">You can see this project on link <a href=""></a></p>
+      <p class="window__desc"></p>
+      <button type="button" class="window__btn">Close</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
