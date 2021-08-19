@@ -23,8 +23,8 @@ let worksArray = [
   },
   {
     title: 'piano',
-    link: 'todolist.git',
-    description: 'ToDo list was my lovely project on JetBrains Academy and I am very happy to practice it'
+    link: 'piano.git',
+    description: 'Piano was my lovely project on JetBrains Academy and I am very happy to practice it'
   }
 ]
 
